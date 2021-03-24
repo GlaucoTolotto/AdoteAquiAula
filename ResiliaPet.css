@@ -1,0 +1,48 @@
+header {
+    background-color: blue;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.menu {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+.menu:hover {
+    background-color: #ccc;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    padding-left: 10px;
+}
+h2:hover {
+    color:white;
+}
+.logo { 
+    font-size: large;
+    width: 100%;
+    padding: auto;
+    margin: 0 auto;
+}
+.logo:hover {
+    font-size: xx-large;
+    color: #ccc;
+}
+@media screem and (max-width:700px){
+    .logo{
+        display: none;
+    } 
+    .menu {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
