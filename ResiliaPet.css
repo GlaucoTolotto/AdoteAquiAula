@@ -25,7 +25,7 @@ h2 {
 }
 h2:hover {
     color:white;
-    transition: color 2s;
+    transition: color 0.7s;
 }
 .logo { 
     font-size: large;
@@ -37,7 +37,7 @@ h2:hover {
 .logo:hover {
     font-size: x-large;
     color: #ccc;
-    transition-duration: 3s;
+    transition-duration: 1s;
 }
 main {
     display: flex;
