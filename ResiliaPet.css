@@ -10,35 +10,45 @@ header {
     font-size:medium;
     box-sizing: border-box;
 }
+
+#logo { 
+    font-size: large;
+    width: 100%;
+    padding: auto;
+    margin-left: 25px;
+    font-family: 'Anton', sans-serif;
+}
+
+#logo:hover {
+    font-size: x-large;
+    color: #ccc;
+    transition-duration: 1s;
+}
+
 .menu {
     background-color: black;
     display: flex;
     flex-direction: row;
     padding: auto;
+    margin-right: 25px;
+}
+body {
+    background-color: rgb(136, 136, 136);
 }
 a {
     text-decoration: none;
 }
+
 h2 {
     color: rgb(110, 110, 110);
     padding-left: 10px;
 }
+
 h2:hover {
     color:white;
     transition: color 0.7s;
 }
-.logo { 
-    font-size: large;
-    width: 100%;
-    padding: auto;
-    margin: 0 auto;
-    font-family: 'Anton', sans-serif;
-}
-.logo:hover {
-    font-size: x-large;
-    color: #ccc;
-    transition-duration: 1s;
-}
+
 main {
     display: flex;
     flex-wrap:nowrap;
